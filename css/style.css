@@ -1,0 +1,147 @@
+html {
+    scroll-behavior: smooth;
+  }
+.background{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url("splashscreen.jpg");
+    background-size:cover;
+    -webkit-clip-path: polygon(100% 0, 100% 85%, 20% 100%, 0% 80%, 0 0);
+    clip-path: polygon(100% 0, 100% 85%, 20% 100%, 0% 80%, 0 0);
+}
+#sponsor{
+    padding-top: 50px;
+}
+#events{
+    padding-top: 70px;
+}
+#faq{
+    
+    padding:6%;
+}
+#contact{
+    padding-top: 6%;
+}
+.one{
+    width:50%;
+}
+.middle{
+    opacity:0;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color:red;
+}
+.one:hover .middle{
+    opacity:1;
+}
+.one:hover .arduino{
+    opacity:0.3;
+}
+.h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight:bold;
+    color:white;
+    text-shadow: 3px 3px 0px black;
+}
+.font{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight:bold;
+    color:black;
+    text-shadow:none;
+    align:left;
+}
+.navbar{
+    position:sticky;
+    top:0;
+    z-index:999;
+    margin-bottom:-100px;
+}
+
+.w{
+    width:10%;
+        
+}
+
+.w2{
+    width: 40%;
+}
+.about{
+    width:60%;
+}
+.b{
+    background:rgb(252,252,252);
+    
+}
+.bg{
+    background: rgb(248,248,248);
+}
+.accordian{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.accordian:focus{
+    border: none;
+    outline: none;
+}
+ .accordian:hover{
+   background-color: #ccc;
+}
+.panel{
+    display: none;
+}
+.footer{
+    background: black;
+}
+.c{
+    width:10%;
+    height:;
+   display: inline-block;
+   float: center;
+}
+.tac{
+    text-align:center;
+    color:white;
+}
+.text-white{
+    text-align:center
+}
+.fa-mug-hot{
+    color:rgb(111,78,55)
+}
+
+.sponsor{
+    background-image:linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),url("download.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.button{
+    background: black;
+    color: white;
+    float:right;
+    border: none;
+    outline: none;
+}
+.button:focus{
+    border: none;
+    outline: none;
+}
+}
+@media only screen and (max-width: 576px){
+    .w1{
+        width:100%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .w{
+        width:20%;
+    }
+    .about{
+        width:100%;
+    }
+    .w2{
+        width: 75%;
+    }
+    
+
+
