@@ -131,6 +131,7 @@ html {
     .w1{
         width:100%;
     }
+    
 }
 @media only screen and (max-width: 800px){
     .w{
@@ -142,6 +143,9 @@ html {
     .w2{
         width: 75%;
     }
+    .c{
+        width: 45%;
+    }
     
-
+}
 
