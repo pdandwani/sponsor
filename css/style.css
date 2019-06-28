@@ -148,6 +148,11 @@ html {
     -webkit-box-shadow: 1px 1px 5px black;
     box-shadow: 1px 1px 5px black;
 }
+#contact a{
+    color:black;
+    padding:10%;
+    
+}
 .panel{
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
