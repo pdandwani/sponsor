@@ -1,6 +1,10 @@
 html {
     scroll-behavior: smooth;
   }
+  body{
+      font-family: 'Roboto', sans-serif;
+      letter-spacing:1px;
+  }
 .background{
     background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url("splashscreen.jpg");
     background-size:cover;
@@ -37,13 +41,13 @@ html {
     opacity:0.3;
 }
 .h1{
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Domine', serif;
     font-weight:bold;
     color:white;
     text-shadow: 3px 3px 0px black;
 }
 .font{
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Domine', serif;
     font-weight:bold;
     color:black;
     text-shadow:none;
